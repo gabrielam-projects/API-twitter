@@ -10,6 +10,6 @@ app.use(json())
 
 
 //Routes
-app.use('/tweets', router)
+app.use(router)
 
 export default app;
