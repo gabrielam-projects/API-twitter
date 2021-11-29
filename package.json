@@ -1,7 +1,6 @@
 {
   "name": "twitter-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
@@ -21,7 +20,16 @@
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
     "@babel/node": "^7.16.0",
-    "@babel/preset-env": "^7.16.0",
-    "nodemon": "^2.0.14"
-  }
+    "@babel/preset-env": "^7.16.4",
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielam-projects/API-twitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielam-projects/API-twitter/issues"
+  },
+  "homepage": "https://github.com/gabrielam-projects/API-twitter#readme",
+  "description": ""
 }
