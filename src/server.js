@@ -3,7 +3,14 @@ import router from './routes/routes'
 
 const app = express();
 app.set('port', process.env.PORT || 3000);
-app.get('/', (req, res) => res.send('Welcome to API'))
+
+
+const data = {
+    "name": "nombre",
+    "tweets": ["texto1", "texto2", "texto3"]
+}
+
+app.get('/', (req, res) => res.json(data))
 
 //Middlewares
 app.use(json())
